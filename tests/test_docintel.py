@@ -91,7 +91,7 @@ def test_po_extraction():
 def test_contract_extraction():
     fields = Extractor().extract(sample_contract())
     assert fields["agreement_no"].value == "AGR-3310"
-    assert fields["party_a"].value == "Ingredion Foods LLC"
+    assert fields["party_a"].value == "Harvestline Foods LLC"
     assert fields["party_b"].value == "Acme Ingredients Co."
     assert fields["effective_date"].value == "2026-01-01"
     assert fields["term_months"].value == 24

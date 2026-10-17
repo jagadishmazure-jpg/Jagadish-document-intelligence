@@ -93,7 +93,7 @@ Total: $11,340.00
 def sample_contract() -> Document:
     text = """SERVICES AGREEMENT
 Agreement No: AGR-3310
-Party A: Ingredion Foods LLC
+Party A: Harvestline Foods LLC
 Party B: Acme Ingredients Co.
 Effective Date: 2026-01-01
 Term: 24 months
