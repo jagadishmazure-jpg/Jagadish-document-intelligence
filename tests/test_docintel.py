@@ -25,7 +25,6 @@ from docintel.review import ReviewQueue
 from docintel.schemas import FIELD_SCHEMAS, required_fields
 from docintel.validation import validate_extraction
 
-
 # -- documents --------------------------------------------------------------
 
 

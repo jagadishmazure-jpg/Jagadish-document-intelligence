@@ -31,7 +31,8 @@ reason alongside the extracted value and source snippet.
 ## The correction feedback loop
 
 `submit_review(field_name, corrected_value, reviewer)` records each
-correction. `review_stats()` aggregates per-field:
+correction. `review_stats()` aggregates per field. The shape of its output
+(illustrative values, not from a run):
 
 ```python
 {"vendor": {"routed": 12.0, "corrected": 9.0, "correction_rate": 0.75}}

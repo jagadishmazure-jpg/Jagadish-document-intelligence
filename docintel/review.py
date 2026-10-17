@@ -9,7 +9,7 @@ next — the loop that makes the system better over time.
 
 from __future__ import annotations
 
-from dataclasses import dataclass, field
+from dataclasses import dataclass
 from typing import Any, Dict, List, Optional
 
 from docintel.extraction import ExtractedField

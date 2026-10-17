@@ -115,7 +115,7 @@ class Extractor:
             text,
             [
                 (rf"^{label}:\s*(\d{{4}}-\d{{2}}-\d{{2}})", 1.0),
-                (rf"(\d{{4}}-\d{{2}}-\d{{2}})", 0.7),
+                (r"(\d{4}-\d{2}-\d{2})", 0.7),
             ],
             re.MULTILINE | re.IGNORECASE,
         )
